@@ -46,12 +46,12 @@ def remove_purchase(history, id):
 
     found = history[id]
 
-    fancyprint.print_title("Confirmation")
-    fancyprint.print_line("Are you sure you want to remove   this item? (y/n)", False)
-    print(fancyprint.DEFAULT_LINE)
+    fancyprint.print_title("Confirm removal")
     fancyprint.print_table_purchase("ID", "DESCRIPTION", "AMOUNT")
     print(fancyprint.DEFAULT_LINE)
     fancyprint.print_table_purchase(str(id), found["description"], str(found["amount"]))
+    print(fancyprint.DEFAULT_LINE)
+    fancyprint.print_line("Are you sure you want to remove   this item? (y/n)", False)
     print(fancyprint.DEFAULT_LINE)
     print()
 

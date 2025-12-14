@@ -1,0 +1,55 @@
+--------------------------------------
+-            Lista Spese             -
+--------------------------------------
+ID   | Descrizione         | Importo
+-----|---------------------|---------
+1    | Pranzo al bar       | 12,500,000
+2    | Biglietto metro     | 2.00
+4    | Cinema              | 9.00
+5    | Cinema              | 9.00
+6    | Cinema              | 9.00
+7    | Cinema              | 9.00
+8    | Cinema              | 9.00
+9    | Cinema              | 9.00
+10   | Cinema              | 9.00
+11   | Cinema              | 9.00
+12   | Cinema              | 9.00
+--------------------------------------
+
+[Premi invio per uscire...]
+
+--------------------------------------
+-          Riepilogo Spese           -
+--------------------------------------
+ Nome             | Valore
+--------------------------------------
+| Numero spese    | 15
+| Totale speso    | €234
+| Media per spesa | €15.63
+| Spesa massima   | Giornale (€150.33) 
+| Spesa minima    | Cinema (€1240)
+--------------------------------------
+
+[Premi invio per uscire...]
+
+--------------------------------------
+-              Errore                -
+--------------------------------------
+Hai inserito un valore che non è un
+numero!
+---------------------------------------
+
+Inserisci il valore: (esc per uscire): 1
+
+
+--------------------------------------
+-              Azioni                -
+--------------------------------------
+1. Aggiungi spesa
+2. Visualizza tutte le spese
+3. Mostra riepilogo
+4. Elimina spesa
+5. Esci
+---------------------------------------
+
+Scelta: 1
